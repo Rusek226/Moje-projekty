@@ -1,0 +1,10 @@
+.box
+{
+    margin :120px;
+    padding: 40px;
+    border : 3px solid #1c201b;
+    display : block;
+    border-radius: 56px;
+    box-shadow: 7 px 5px 12px #290dc4;
+    font-size: 1.7 rem;
+}
