@@ -18,7 +18,7 @@ console.log(5<=5);
 
 //operatory logiczne
 
-console.log(true || true);// 
+console.log(true || true);
 
 console.log(true&&true);
 

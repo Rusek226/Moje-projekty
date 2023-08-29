@@ -2,7 +2,7 @@
 
 let box = document.getElementById("result");
 
-let color = "pink";
+let color = "green";
 
 switch (color) {
     case  "green":
