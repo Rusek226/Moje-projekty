@@ -54,5 +54,5 @@ class Enemy{
 alert("elo");
 prompt("podaj liczbe");
  if (liczba = 5);
- console.log = alert("Brawo");
+    console.log = alert("Brawo");
 
