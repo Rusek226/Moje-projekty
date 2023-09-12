@@ -56,3 +56,8 @@ prompt("podaj liczbe");
  if (liczba = 5);
  console.log = alert("Brawo");
 
+function myFunc() {
+    console.log("Jakiś tekst");
+}
+setTimeout(myFunc,1200);
+
