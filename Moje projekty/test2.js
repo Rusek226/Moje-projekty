@@ -21,5 +21,10 @@ const interval = setInterval(() =>{
  
 clearInterval(interval);
 
+console.group ("Nazwa grupy");
+console.log("Ala ma kota");
+console.log("Kot ma Alę");
+console.groupEnd;
 
+console.table([1,2,3,4,5]);
 
