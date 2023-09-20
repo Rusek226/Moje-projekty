@@ -37,3 +37,52 @@ console.log("%cCena tego produktu to %dzł","color:red;font-weight:bold",120);
 
 let a = 0;
 a = 10;
+
+const tab = [1,2,3];
+tab[3] = 4;
+tab.push(5,6);
+console.log(tab);
+
+// tab = [1,2,3,4,5,6];
+
+/**const user = {
+    name:"Piotr",
+    age : 18
+}
+
+user.age = 20;
+user ={
+    name:"Poitr"
+}/** */
+
+let c = 20;
+{
+    let c = 30;
+    console.log(c);
+}
+console.log(c);
+{
+    let d = "Ala";
+    console.log(d);
+}
+
+/**{
+    console.log(d);
+}/** */
+
+{
+    let e = "Ola";
+    console.log(e);
+}
+
+// console.log(e);
+
+for(let i=0;i<30;i++) {
+    console.log(i);
+}
+// console.log(i);
+
+// console.log(f);
+// let f = 20;
+
+
