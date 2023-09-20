@@ -34,3 +34,5 @@ console.log("Kot %s lubi się bawić","Rysiek");
 console.log("Cena tego produktu to %dzł",120);
 console.log("%cCena tego produktu to %dzł","color:red;font-weight:bold",120);
 
+// alert("treść komunikatu");
+
