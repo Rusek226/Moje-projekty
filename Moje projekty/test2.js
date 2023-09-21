@@ -34,6 +34,7 @@ console.log("Kot %s lubi się bawić","Rysiek");
 console.log("Cena tego produktu to %dzł",120);
 console.log("%cCena tego produktu to %dzł","color:red;font-weight:bold",120);
 
+// Zmienne let i const
 
 let a = 0;
 a = 10;
@@ -45,12 +46,12 @@ console.log(tab);
 
 // tab = [1,2,3,4,5,6];
 
-/**const user = {
+const user = {
     name:"Piotr",
     age : 18
 }
 
-user.age = 20;
+/**user.age = 20;
 user ={
     name:"Poitr"
 }/** */
@@ -84,5 +85,48 @@ for(let i=0;i<30;i++) {
 
 // console.log(f);
 // let f = 20;
+
+// OPERATORY
+
+const x = 5;
+console.log(x+2);
+console.log(x-1);
+console.log(x*2);
+console.log(x/2);
+console.log(x%2);
+console.log(9%3);
+console.log(x**2);
+console.log(3**3);
+
+let y = 24;
+
+if(y % 2===0){
+    console.log(`Liczba ${y} jest parzysta`);
+}
+
+let z = 5;
+z += 3;
+console.log(x);
+
+let o = 5;
+o -= 3;
+console.log(o);
+
+let k = 5;
+k *= 3;
+console.log(k);
+
+let u = 5;
+u /= 2;
+console.log(u);
+
+
+let t =5;
+t++;
+console.log(t);
+
+let h = 8;
+h--;
+console.log(h);
 
 
