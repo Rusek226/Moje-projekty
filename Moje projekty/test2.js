@@ -130,3 +130,42 @@ h--;
 console.log(h);
 
 
+const nr = 8;
+    switch (true) {
+        case (nr<= 5):
+            console.log("Mało");
+        break;
+        case (nr > 5 && nr < 10):
+            console.log("Śednio");
+                break;
+        case ( nr >= 10):
+            console.log("Dużo");
+            break;
+        
+    }
+
+    let i = 1;
+
+    while (i <=20) {
+        console.log("Nie będę ...");
+         i++;
+    }
+
+    for ( let i=0; i<10;i++){
+        console.log("%cGłówna pętla nr " + i, "color:green");
+
+
+        for (let j=0;j<5;j++) {
+            console.log("%cPętla wewnętrzna nr " + j,"color:purple");
+        }
+    }
+
+let str = "";
+
+    for (let i=0; i<4; i++) {
+        for (let j=0; j<6; j++) {
+            str += "*";
+        }
+        str += "\n";
+    }
+    console.log(str);
