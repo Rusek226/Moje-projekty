@@ -1,18 +1,18 @@
-function myFunc () {
+/*function myFunc () {
     console.log("Jakiś tekst");
 }
-setTimeout(myFunc,5000);
+setTimeout(myFunc,5000);*/
 
 
-setTimeout(() => {
+/*setTimeout(() => {
     console.log("z zaskoczenia");
-},8000);
+},8000);*/
 
 function print (txt,nr){
     console.log(txt,nr);
 
 }
-setTimeout (print,2000,"Ala ma kota",102);
+// setTimeout (print,2000,"Ala ma kota",102);
 
 const interval = setInterval(() =>{
     console.log("Wypisze się co sekundę")
@@ -129,6 +129,7 @@ let h = 8;
 h--;
 console.log(h);
 
+// Instrukcje warunkowe plus pętle
 
 const nr = 8;
     switch (true) {
@@ -169,3 +170,37 @@ let str = "";
         str += "\n";
     }
     console.log(str);
+
+let g = 0;
+
+while (i <10){
+    console.log(i);
+    i = Math.random();
+}
+console.log(i);
+
+
+const ob = {
+    name:"Karol"
+}
+ob.name
+
+const txt = "Ala ma kota";
+txt.length;
+txt.toUpperCase();
+console.log(txt.length);
+
+
+const zzz = "Ala";
+const big = txt.toUpperCase();
+console.log(big);
+console.log(txt);
+
+const fg = 10;
+const fff = "coś tam ";
+const arr = [1,2,3];
+
+
+console.log(typeof nr);
+console.log(typeof fff);
+console.log(typeof arr);
