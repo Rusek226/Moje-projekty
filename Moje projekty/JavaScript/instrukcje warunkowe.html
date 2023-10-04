@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data =6;
+        if (data > 5) {
+            console.log("Liczba w data jest mniejsza od 5");
+        }
+        if (data < 5){
+            console.log("Liczba w data jest mniejsza od 5");
+        }
+
+
+
+        let age = 15;
+
+        if(age >= 18){
+            console.log("Może głosować");
+        }
+        if (age < 18) {
+            console.log("Nie może głosować");
+            console.log("Musi poczekać do 18 urodzin");
+        }
+        if (age >= 18){
+            console.log("Może głosować.")
+            
+        }else {
+            console.log("Nie może głosować.");
+        }
+
+        let sportRanking = 1;
+        if (sportRanking == 1) {
+            console.log("Pierwsze miejsce, Gratulacje !");
+        } else if (sportRanking == 2){
+            console.log("Drugie miejsce");
+        }else if (sportRanking == 3){
+            console.log("Trzecie miejsce");
+        }else {
+            console.log("Niestety, brak medalu,spróbuj za rok");
+        }
+
+        let topSpeed = 420 ;
+        switch (topSpeed){
+            case 100:
+                console.log("Mała prędkość maksymalna");
+                break;
+            case 150:
+                console.log("Prędkość 150 km/h");
+                break;
+            case 200:
+                console.log("Szybko 20 km/h");
+                break;
+            case 250 :
+                console.log("250 km/h");
+                break;
+            case 300:
+                console.log("Bardzo szybko 300 km/h");
+                break;
+            case 310:
+            case 320:
+            case 330:
+                console.log("Prędkość powyrzej 300 km/h");
+                break;
+            default:
+                console.log("Brak informacji ");
+                
+            
+        }
+    </script>
+</body>
+</html>
