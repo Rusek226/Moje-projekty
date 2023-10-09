@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let person =  {
+    Name : "Marcin",
+    Surname: "Rusiniak",
+    Age:38,
+    City: "Warszawa",
+    PostCode : "01-162",
+    Country : "Poland",
+
+    getName : function () {
+        return this.Name + " " + this.Surname + " " + this.City;
+    }
+
+
+};
+
+console.log(person.getName());
+
+
+function getNewPerson (personName,surname,age){
+    return{
+        name:personName,
+        surname:surname,
+        age:age
+
+
+
+    };
+};
+
+const user = getNewPerson("Ania","Kowalska",29);
+console.log(user);
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

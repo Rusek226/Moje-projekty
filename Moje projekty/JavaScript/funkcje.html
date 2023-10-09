@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+function add(a,b ) {
+    let c = a+b;
+    console.log("Wynik dodawania :",c);
+}
+
+add (8,3);
+add (5,20);
+add (5,30);
+
+let x = 10;
+let y =45;
+
+if (x > 5){
+    add(x,y);
+}
+
+function multiply (a , b){
+    return (a * b);
+}
+
+let result = multiply (15,4);
+console.log("result: ",result);
+
+
+//wyrażenie funkcyjne
+
+let division = function (a , b){
+    return a / b;
+}
+
+let divisionResult = division (100, 3);
+
+console.log("Wynik dzielenia: ",divisionResult);
+ 
+let data = 55; //zmienna globalna dostępna w całym programie
+let text = "JavaScript";
+
+function test(){
+    let text = "Hello"  // zmienna lokalna idoczna wyłąznie wewnątrz naszej funcji
+    console.log("Wartość data: ",data);
+    console.log("Wartość text: ",text);
+}
+
+
+test();
+console.log(text);
+
+
+    </script>
+</body>
+</html>
