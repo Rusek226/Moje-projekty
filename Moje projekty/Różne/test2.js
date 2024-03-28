@@ -201,6 +201,6 @@ const fff = "coś tam ";
 const arr = [1,2,3];
 
 
-console.log(typeof nr);
+console.log(typeof fg);
 console.log(typeof fff);
 console.log(typeof arr);
